@@ -1,4 +1,4 @@
-/*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
+/*Creditos: normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 @import url(https://fonts.googleapis.com/css?family=Nunito+Sans);
 @import url(https://fonts.googleapis.com/css?family=Rubik);
 
@@ -216,10 +216,6 @@ template {
     display: none
 }
 
-/*!
- *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
- *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
- */
 @-webkit-keyframes fa-spin {
     0% {
         -webkit-transform: rotate(0deg);
@@ -4822,10 +4818,10 @@ a img {
 
 #particles-js {
     background: #1488CC;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);
+    /* Navegaores legado*/
+    background: -webkit-linear-gradient(to right, #400a44, #cc57e9);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #2B32B2, #1488CC);
+    background: linear-gradient(to right, #400a44, #cc57e9);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
     display: flex;
@@ -4926,7 +4922,8 @@ a img {
 
 .header-icons .icon:active,
 .header-icons .icon:hover {
-    color: #1488CC;
+    /* cor do botão sobreposto */
+    color: #50117a;
     background: #fff
 }
 
@@ -4999,56 +4996,10 @@ a img {
     font-size: 16px
 }
 
-@media only screen and (min-width:550px) {
-    .user {
-        flex-wrap: nowrap;
-        font-size: 75px
-    }
-}
-
 .user-details {
     text-align: center;
     margin: 5px auto
 }
-
-#projects {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 90%;
-    max-width: 960px;
-    margin: 0 auto
-}
-
-@media only screen and (min-width:550px) {
-    #projects {
-        width: 80%
-    }
-}
-
-.user-projects {
-    margin: 20px auto
-}
-
-.user-projects img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 5px
-}
-
-.user-projects h5 {
-    margin: 0
-}
-
-.user-projects li {
-    color: #1488CC;
-    font-size: 1.1rem
-}
-
-.user-projects p {
-    margin-right: 5px
-}
-
 @media only screen and (min-width:550px) {
     .contents {
         margin-left: 0;
@@ -5080,35 +5031,12 @@ a img {
     }
 }
 
-.project-link {
-    display: inline-block;
-    margin: 10px 0;
-    padding: 5px;
-    color: #1488CC;
-    background-color: transparent;
-    border: 1px solid #1488CC;
-    border-radius: 10px;
-    text-align: center;
-    outline: 0;
-    text-decoration: none;
-    cursor: pointer;
-    transition: color .3s ease-out, background-color .3s ease-out, border-color .3s ease-out
-}
-
-.project-link:active,
-.project-link:hover {
-    background-color: #5347a8;
-    border-color: #5347a8;
-    color: #fff;
-    transition: color .3s ease-in, background-color .3s ease-in, border-color .3s ease-in
-}
-
 .footer {
     background: #1488CC;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);
+    background: -webkit-linear-gradient(to right, #7b15be, #400a44);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #2B32B2, #1488CC);
+    background: linear-gradient(to right, #7b15be, #400a44);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     padding: 10px 0;
     margin-top: 210px;
