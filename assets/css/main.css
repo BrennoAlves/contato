@@ -4817,11 +4817,11 @@ a img {
 }
 
 #particles-js {
-    background: #1488CC;
+    background: #400a44;
     /* Navegaores legado*/
-    background: -webkit-linear-gradient(to right, #400a44, #cc57e9);
+    background: -webkit-linear-gradient(to right, #400a44, #672990);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #400a44, #cc57e9);
+    background: linear-gradient(to right, #400a44, #672990);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
     display: flex;
