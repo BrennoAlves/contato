@@ -4819,9 +4819,9 @@ a img {
 #particles-js {
     background: #400a44;
     /* Navegaores legado*/
-    background: -webkit-linear-gradient(to right, #400a44, #672990);
+    background: -webkit-linear-gradient(to right, #020127, #3c3b88);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #400a44, #672990);
+    background: linear-gradient(to right, #020127, #3c3b88);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
     display: flex;
@@ -5032,11 +5032,11 @@ a img {
 }
 
 .footer {
-    background: #1488CC;
+    background: #211f9c;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #7b15be, #400a44);
+    background: -webkit-linear-gradient(to right, #020127, #3c3b88);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #7b15be, #400a44);
+    background: linear-gradient(to right, #020127, #3c3b88);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     padding: 10px 0;
     margin-top: 210px;
